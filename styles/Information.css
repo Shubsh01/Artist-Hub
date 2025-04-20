@@ -1,0 +1,100 @@
+.information{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* margin-top: 20px; */
+    /* height: calc(100vh-65px);
+     */
+     height: 100vh;
+     color: white;
+     background-image: linear-gradient(to right, #202020 0%, black 100%);;
+    /* background: #ff5500;
+    background: linear-gradient(180deg, rgba(245, 127, 0, 1) 0%, rgba(255, 255, 255, 1) 100%, rgba(255, 255, 255, 1) 100%); */
+}
+
+.details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: larger;
+    margin-bottom: 80px;
+    margin-top: 100px;
+
+}
+
+.details h1{
+    background: linear-gradient(120deg, #f093fb 0%, #f5576c 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.details h2{
+    font-size: 20px;
+}
+
+.features{
+    display: grid;
+    grid-template-columns: 350px 350px 350px;
+    gap: 40px;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons h1{
+    font-size: 25px;
+}
+
+.icons p{
+    margin-top: 20px;
+    color: gray;
+}
+
+.mainIcon1{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background-image: linear-gradient(to top, #4481eb 0%, #04befe 100%);
+}
+
+.mainIcon2{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background-image: linear-gradient(to right, #f9d423 0%, #ff4e50 100%);
+}
+
+.mainIcon3{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+}
