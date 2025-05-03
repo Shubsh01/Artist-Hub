@@ -1,5 +1,5 @@
 
-  window.addEventListener('DOMContentLoaded', () => {
+  // window.addEventListener('DOMContentLoaded', () => {
   console.log("JS Loaded ✅");
 
   // Load navbar - fixed path for GitHub Pages
@@ -83,4 +83,4 @@
           creator.classList.remove('hovered');
       });
   });
-});
+// });
